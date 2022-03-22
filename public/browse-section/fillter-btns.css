@@ -1,0 +1,25 @@
+.fillter-btns-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fillter-btns-header {
+}
+
+.fillter-btns-container button {
+  cursor: pointer;
+  border: none;
+  background-color: var(--main-black-clr);
+  color: var(--main-white-clr);
+  padding: 1.5rem 3rem;
+  margin: 2rem 1rem;
+  letter-spacing: 0.2rem;
+  font-size: var(--normal-font-size);
+}
+
+/* ==================== Hovers ==  */
+
+.fillter-btns-container button:hover {
+  background-color: rgba(0, 0, 0, 0.807);
+}
